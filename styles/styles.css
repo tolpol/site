@@ -1,0 +1,526 @@
+body{
+     font-family:Roboto, Arial, "Times New Roman", sans-serif;
+	 font-size: 12pt;
+	 margin:0px;
+	 padding: 0px;
+	 width:100%;	 
+}
+
+
+
+ul{
+     list-style:none;
+}
+
+a{
+     text-decoration:none;
+}
+
+#header{
+     margin:0 auto;
+     width:768px;
+     height:330px;
+	 
+}
+
+#topmenu{
+     margin:0 auto;
+     height:40px;
+	 width:728px;
+	 border-bottom:1px solid #eeeeee;
+	 
+}
+
+#topmenu  input[type="button"]:active{
+     margin-top:1px;	 
+}
+
+#topmenu ul{
+     float:left;
+     margin:10px 0px 0px 0px;
+     height:24px;
+	 padding-left:0px;	 	 
+}
+
+#topmenu ul li{ 
+     display:block;    
+     float:left;
+	 padding:0px 16px 11px 16px;
+}
+
+#topmenu ul .on{
+     padding-left:0px;
+}
+
+#topmenu ul li a{
+     color:#000;
+     padding:0px 2px 5px 2px;
+     display:block;     
+     font-size:14px;
+	 font-weight:light;
+}
+
+#topmenu p{
+     font-size:14px;
+	 font-weight:light;
+}
+
+#topmenu  input[type="button"],#topmenu table input[type="button"]{     	 
+     height:8px;
+	 width:9px;
+	 border:none;
+	 background:url(../images/down.jpg)no-repeat center;
+}
+
+#topmenu  .ib input[type="button"]{
+     margin-top:18px;	 
+}
+
+
+
+#topmenu .topundermenu{
+     margin-top:8px;
+     width:180px;
+	 height:220px; 
+     display: none;     
+     position: absolute;     
+	 background:#fff;
+	 border:1px solid #eeeeee;
+}
+
+#topmenu .topundermenu ul{
+     margin-top:20px 20px 20px 40px;
+}
+
+#topmenu .topundermenu ul li{
+     padding-top:5px;     
+     margin-left:10px;
+     float:none;
+}
+
+#topmenu .topundermenu ul li a{
+     padding:0px;
+     color:#000;	 
+}
+
+#topmenu .topundermenu a:hover{     
+     color:orange;
+	 border-bottom:1px solid orange;
+}
+
+
+#topmenu ul li:hover .topundermenu{     
+     display: block;          
+}
+
+#topmenu table{
+     margin-top:6px;
+     float:right;
+	 height:20px;
+} 
+
+#topmenu table p{
+      margin:0px 30px 0px 6px;     
+}
+
+#topmenu table input[type="button"]{
+     margin-bottom:5px;	 
+}
+
+#topmenu table .language1 input[type="button"]{
+     background:url(../images/ua.jpg)no-repeat center;
+	 
+}
+
+#topmenu table .language2 input[type="button"]{
+     background:url(../images/ru.jpg)no-repeat center;
+	 margin-right:-3px;
+}
+
+#header .contacts{
+     margin:0 auto;
+	 width:728px;
+	 height:175px;
+}
+
+#header .logo{
+     width:185px;
+}
+
+#header .logo img{
+     margin-top:35px;
+}
+
+#header .logo ul{
+     margin-top:10px;
+     padding-left:0px;
+}
+
+#header .logo p{
+     margin:0px;
+	 font-size:11px;	 
+	 font-family:roboto;
+	 text-shadow:0px 0px 1px #efc6ba;
+	 color: #d65414;;	 
+}
+
+#header .order{
+     width:310px;     
+}
+
+#header .order table{    
+     width:310px;
+	 height:40px;
+}
+
+#header .order p{
+     margin:0px;	 
+}
+
+#header table .orange{
+     color:#d65414;
+	 font-weight:regular;
+	 font-size:17px;
+}
+
+#header table .medium{
+     font-weight:medium;
+	 font-size:17px;
+}
+
+#header .order ul{
+     height:35px;
+     width:310px;
+	 margin:10px 0px 0px 0px;
+     padding-left:5px;
+}
+
+#header .order ul li{
+     float:left;
+}
+
+#header .order ul li img{
+     margin-right:8px;
+}
+
+#header .order ul li p{
+     font-size:13px;
+	 font-weight:light;
+}
+
+#header .order input{
+     padding-left:30px;
+     color:#fff;
+     margin-top:10px;
+     width:176px;
+	 height:33px;
+	 border:none;
+	 background:url("../images/orderacallna.jpg")no-repeat center;
+}
+
+#header .order input:active{
+      background:url("../images/orderacalla.jpg")no-repeat center;
+}
+
+#header .issue{
+     width:220px;
+	 padding:0px;
+}
+
+#header .issue img{
+     float:left;
+     margin-top:3px;
+}
+
+#header .basket {     
+     margin:10px 0px 0px 50px;	 
+	 font-size:13px;
+	 font-weight:bold;
+}
+
+#header .issue ul{
+     margin:0px;
+     padding-left:50px;
+}
+
+#header .issue ul li{
+     padding-top:5px;
+}
+
+#header .issue ul li p{
+     margin:0px;
+	 font-size:14px;
+	 font-weight:light;
+}
+
+#header .issue input{
+     padding:0px;
+     margin-top:30px;
+     color:#fff;
+     float:right;
+     width:167px;
+	 height:33px;
+	 border:none;
+	 background:url("../images/issuena.jpg")no-repeat center;
+}
+
+#header .issue input:active{
+     background:url("../images/issuea.jpg")no-repeat center;
+}
+
+#search{
+     margin:0 auto;
+     width:726px;
+	 height:40px;
+	 border:1px solid #d7d7d7;
+}
+
+#search img{
+     margin:10px 0px 0px 30px;
+     float:left;	 
+}
+
+#search input[type="text"]{
+     width:640px;
+     font-size:14px;
+	 font-weight: light;
+     margin-left:17px;
+	 margin-top:10px;
+	 border:none;
+	 outline:none;
+}
+
+#mainmenu {
+     margin-top:20px;
+     width:768px;
+	 height:50px;
+	 background:url("../images/mainmenu.jpg")no-repeat center;
+}
+
+#mainmenu table{
+     margin:0 auto;
+     width:728px;
+}
+
+#mainmenu table ul{
+     margin:0px;
+     float:left;
+     padding-left:0px;
+}
+
+#mainmenu table  ul li{
+     display:block;
+     float:left;
+	 padding:0px 9px 0px 9px;
+}
+
+#mainmenu table  ul li  a{
+     font-weight:bold; 
+     font-size:12px;
+     display:block;   
+	 padding:15px 8px 17px 8px;
+    	 
+}
+
+#mainmenu table  ul li .wht{
+     color:#fff;
+}
+
+#mainmenu table ul li a:hover{	 
+      display:block;
+     padding-bottom:15px;	  
+	 border-bottom:2px solid #fff;
+}
+
+#mainmenu table input{
+     float:right;
+	 width:9px;
+	 height:7px;
+	 border:none;
+	 margin:20px 20px 0px 0px;
+	 background:url("../images/down2.jpg")no-repeat center;
+}
+
+
+.undermenu {     
+     position:absolute;
+     display:none;
+     margin-top:10px;
+     width:720px;
+	 height:450px;
+	 
+}
+
+#mainmenu .under1{
+     width:175px;
+	 height:165px;
+	 border-bottom:1px solid #eeeeee;
+}
+
+#mainmenu .under2{
+     width:175px;
+	 height:140px;
+	 border-bottom:1px solid #eeeeee;
+}
+
+#mainmenu .under1 p{
+     font-size:13px;
+	 font-weight:bold;
+     margin:20px 0px 10px 0px;
+}
+
+#mainmenu .under2 p,#mainmenu .under3 p{
+     font-size:13px;
+	 font-weight:bold;
+     margin:0px 0px 10px 0px;
+}
+
+
+
+#mainmenu .under1 ul li, #mainmenu .under2 ul li, #mainmenu .under3 ul li{
+     padding-top:15px;
+     padding-left:0px;
+	 float:none;
+}
+
+#mainmenu .under1 ul li a, #mainmenu .under2 ul li a, #mainmenu .under3 ul li a{
+     color:#000;
+     padding:0px;
+	 font-size:13px;
+	 font-weight:light;
+}
+
+#mainmenu .under1 ul li a:hover, #mainmenu .under2 ul li a:hover, #mainmenu .under3 ul li a:hover{     
+	 color:blue;
+	 padding-bottom:0px;
+	 border:none;
+}
+
+
+#mainmenu .under4{
+     width:320px;
+	 height:125px;
+}
+
+#mainmenu .und41{
+     float:left;
+	 margin-top:30px;
+     margin-left:12px;
+	 border-left:1px solid #eeeeee;
+	 margin-bottom:none;
+}
+
+#mainmenu .und41 li{
+     float:none;
+	 padding-top:0px;
+	 padding-bottom:14px;
+     padding-left:28px;	 
+}
+
+#mainmenu .und41 li p{
+     font-size:13px;
+	 font-weight:bold;
+     margin:0px 0px 10px 0px;
+}
+
+#mainmenu .und41 li a{
+     color:#000;
+     padding:0px;
+	 font-size:13px;
+	 font-weight:light;
+}
+
+#mainmenu .und41 li a:hover{     
+	 color:blue;
+	 padding-bottom:0px;
+	 border:none;
+}
+
+#mainmenu .und42{
+     float:right;
+	 margin-top:70px;
+	 margin-bottom:none;
+	 margin-right:0px;
+
+}
+
+#mainmenu .und42 li{
+     float:none;
+	 padding-top:0px;
+	 padding-bottom:14px;
+     padding-right:25px;	 
+}
+
+#mainmenu .und42 li a{
+     color:#000;
+     padding:0px;
+	 font-size:13px;
+	 font-weight:light;
+}
+
+#mainmenu .und42 li a:hover{     
+	 color:blue;
+	 padding-bottom:0px;
+	 border:none;
+}
+
+#mainmenu .und51{
+     float:left;
+	 margin-top:30px;
+     margin-left:0px;
+	 border-left:1px solid #eeeeee;
+	 margin-bottom:none;
+}
+
+#mainmenu .und51 li{
+     float:none;
+	 padding-top:0px;
+	 padding-bottom:14px;
+     padding-left:30px;	 
+}
+
+#mainmenu .und51 li p{
+     font-size:13px;
+	 font-weight:bold;
+     margin:0px 0px 10px 0px;
+}
+
+#mainmenu .und51 li a{
+     color:#000;
+     padding:0px;
+	 font-size:13px;
+	 font-weight:light;
+}
+
+#mainmenu .und51 li a img{
+     margin-right:20px;
+}
+
+#mainmenu .und51 li a:hover{     
+	 color:blue;
+	 padding-bottom:0px;
+	 border:none;
+}
+
+#mainmenu li:hover .undermenu {
+     display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
